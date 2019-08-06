@@ -1,6 +1,7 @@
 Feature: Free CRM Login Feature
 
 
+
 #without Examples Keyword
 #Scenario: Free CRM Login Test Scenario
 #
@@ -21,7 +22,7 @@ Then user clicks on login button
 Then user is on home page
 Then Close the browser
 
-
+#example keyword used for data in data driven approach and scenario outline keyword for scenario steps 
 Examples:
 	| username | password |
 	| naveenk  | test@123 |
